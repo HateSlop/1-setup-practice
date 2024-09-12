@@ -11,7 +11,7 @@ conda, .env, git 실습을 위한 레포지토리
 
 ```bash
 git clone git@github.com:HateSlop/setup-practice.git  # 클론
-cd crawling # 프로젝트 루트로 이동
+cd setup-practice # 프로젝트 루트로 이동
 git checkout -b minseonghan # 브랜치 생성 (본인의 브랜치, 폴더 등 생성)
 mkdir minseonghan # 개인 폴더 만들기
 cd minseonghan # 개인 폴더로 이동
