@@ -11,23 +11,23 @@ print(OPENAI_API_KEY)
 
 
 #api endpoint 
-#отправляет на сайт который все остальные будут отправлят сайт
+
 url = "https://api.openai.com/v1/chat/completions"
 
 # request headers
 # 
 headers = {
     "Content-Type": "application/json",
-    "Authorization": f"Bearer {OPENAI_API_KEY}" #???? а  жто что означант не понятно 
+    "Authorization": f"Bearer {OPENAI_API_KEY}" 
 }
 
 #request body
-# здесь задают роль и вопросф для каждого ассистента?
+
 data = {
     "model":"gpt-3.5-turbo",
     "messages": [
         {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": "한국어로 시를 써줘"}
+        {"role": "user", "content": "What is the purpose of life?"}
     ]
 }
 
