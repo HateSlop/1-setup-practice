@@ -1,5 +1,5 @@
 # setup-practice
-conda, .env, git 실습을 위한 레포지토리
+1기 conda, .env, git 실습을 위한 레포지토리
 
 ## 제출 방법
 
